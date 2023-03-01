@@ -1,13 +1,17 @@
-<style>
-    #error {
-        display: none;
-    }
-</style>
+<!-- scripts to be added to the header of the page -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
 <script type="text/javascript" src="./gh-repos.js"></script>
 
+<!-- display divs, where we will be displaying the most updated repos, or error messages -->
 <div id="current">
     <div class="row"><h4>Current Projects: <small><a href="https://github.com/JustinAClarke?tab=repositories">View All</a></small></h4></div>
     <div id="loading" class="row"> Loading...</div>
     <div id="error" class="row"> Error...<br></div>
 </div>
+
+<!-- basic css to hide the error state by default -->
+<style>
+    #error {
+        display: none;
+    }
+</style>
